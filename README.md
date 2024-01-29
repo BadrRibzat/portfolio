@@ -2,7 +2,7 @@
 
 ## A Blazing Fast Multipage Portfolio Template for Developers 🚀
 
-## [Demo Link](https://dopefolio.netlify.app) 🔗
+## [Demo Link](https://dopefolio.index.html.app)
 
 <div align="center">
   <img src="https://i.postimg.cc/CxZXqhWM/ezgif-com-video-to-gif-1.gif" alt="Dopefolio Demo" width="100%" />
@@ -32,7 +32,7 @@
 
 I do need **support** from amazing people like you as I started posting on **[My Linkedin](https://linkedin.com/in/rammcodes)** and want each one of you to checkout **[My Linkedin](https://linkedin.com/in/rammcodes)** Profile where I post amazing content related to Programming & Web Development 🚀
 
-<a href="https://linkedin.com/in/rammcodes">
+<a href="https://www.linkedin.com/in/badr-ribzat-48a949201?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=apphttps://www.linkedin.com/in/badr-ribzat-48a949201?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=app">
 <div align="center">
   <img src="https://i.postimg.cc/3RhcKdTD/www-linkedin-com-in-rammcodes-4.png" alt="Badr Ribzat Linkedin Profile" width="100%" />
   <br>
