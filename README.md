@@ -1,8 +1,9 @@
-# Dopefolio 🔥
+
+# Popefolio 🔥
 
 ## A Blazing Fast Multipage Portfolio Template for Developers 🚀
 
-## [Demo Link](https://dopefolio.index.html.app)
+## [Demo Link](https://portfolio.index.html.app)
 
 <div align="center">
   <img src="https://i.postimg.cc/CxZXqhWM/ezgif-com-video-to-gif-1.gif" alt="Dopefolio Demo" width="100%" />
@@ -18,9 +19,7 @@
 
 ## ( Update ): Project Achievement 🏆 
 
-**Dopefolio** has been listed as the **Hottest Frontend Tool of 2021** According to **CSS Tricks** 🥳. Thanks to all of you for supporting this project 🙌
-
-**[Link to the CSS tricks article on Dopefolio](https://css-tricks.com/hottest-front-end-tools-in-2021/#aa-58-dopefolio)**   
+**Portfolio** has been listed as the **Hottest Frontend Tool of 2021** According to **CSS Tricks** 🥳. Thanks to all of you for supporting this project 🙌   
 
 <br/>
 
@@ -63,7 +62,7 @@ I do need **support** from amazing people like you as I started posting on **[My
 
 ## Test the template with different colors on the playground link 🚀
 
-## [Playground Link](https://dopefolio-playground.netlify.app) 🔗
+## [Playground Link](https://portfolio.index.html.app) 🔗
 
 <div align="center">
   <img src="https://i.postimg.cc/xjsqN9GG/ezgif-com-gif-maker-2.gif" alt="Dopefolio Playground" width="100%" />
@@ -81,7 +80,6 @@ I do need **support** from amazing people like you as I started posting on **[My
 - **HTML** 🚀
 - **CSS** 🚀
 - **JavaScript** 🚀
-- **SASS** 🚀
 
 ---
 
