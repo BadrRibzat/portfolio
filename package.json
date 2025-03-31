@@ -2,7 +2,7 @@
   "name": "badr-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://BadrRibzat.github.io/badr-portfolio",
+  "homepage": "https://BadrRibzat.github.io/portfolio",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.7.2",
     "@testing-library/dom": "^10.4.0",
