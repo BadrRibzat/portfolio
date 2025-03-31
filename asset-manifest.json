@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.542a0c9a.css",
+    "main.js": "/portfolio/static/js/main.c167f427.js",
+    "static/media/English-Intermediate.pdf": "/portfolio/static/media/English-Intermediate.fdd55bd30e7f33959a36.pdf",
+    "static/media/Google.pdf": "/portfolio/static/media/Google.51ec26863adde80ce930.pdf",
+    "static/media/carist.pdf": "/portfolio/static/media/carist.5b1f8be57ba5b0092753.pdf",
+    "static/media/fa-solid-900.ttf": "/portfolio/static/media/fa-solid-900.2582b0e4bcf85eceead0.ttf",
+    "static/media/Nutrition.pdf": "/portfolio/static/media/Nutrition.bd5b9f57f108381b732e.pdf",
+    "static/media/cancer.jpg": "/portfolio/static/media/cancer.9d3dcfe9b53479177249.jpg",
+    "static/media/Certificate_Chef-Cuisine .pdf": "/portfolio/static/media/Certificate_Chef-Cuisine .f481ae4c769d514b2ba3.pdf",
+    "static/media/SQL_certificate.jpg": "/portfolio/static/media/SQL_certificate.465e3a2eebe87ac089ea.jpg",
+    "static/media/Certificate_Web-Development-Beginner.pdf": "/portfolio/static/media/Certificate_Web-Development-Beginner.3956a9def64de720fde7.pdf",
+    "static/media/fa-brands-400.ttf": "/portfolio/static/media/fa-brands-400.1815e00441357e01619e.ttf",
+    "static/media/Python-Beginner.pdf": "/portfolio/static/media/Python-Beginner.697df8976f5d0b644dbe.pdf",
+    "static/media/fa-solid-900.woff2": "/portfolio/static/media/fa-solid-900.2463b90d9a316e4e5294.woff2",
+    "static/media/me.jpg": "/portfolio/static/media/me.cd2eb24b0634d790ab82.jpg",
+    "static/media/fa-brands-400.woff2": "/portfolio/static/media/fa-brands-400.c210719e60948b211a12.woff2",
+    "static/media/JavaScript-2.pdf": "/portfolio/static/media/JavaScript-2.8f84737f38da0cf0222f.pdf",
+    "static/media/BadrRibzat.pdf": "/portfolio/static/media/BadrRibzat.5d827b5390dacc2971e4.pdf",
+    "static/media/certificate_Social-Media-Marketing.pdf": "/portfolio/static/media/certificate_Social-Media-Marketing.4c46b6511b6dec070ff6.pdf",
+    "static/media/JavaScript.pdf": "/portfolio/static/media/JavaScript.681603db24058963a7cf.pdf",
+    "static/media/fa-regular-400.ttf": "/portfolio/static/media/fa-regular-400.914997e1bdfc990d0897.ttf",
+    "static/media/Badr_Ribzat_Resume.pdf": "/portfolio/static/media/Badr_Ribzat_Resume.fe76d7120809fde9dec1.pdf",
+    "static/media/fa-regular-400.woff2": "/portfolio/static/media/fa-regular-400.89999bdf5d835c012025.woff2",
+    "static/media/fa-v4compatibility.ttf": "/portfolio/static/media/fa-v4compatibility.da94ef451f4969af06e6.ttf",
+    "static/media/fa-v4compatibility.woff2": "/portfolio/static/media/fa-v4compatibility.ea8f94e1d22e0d35ccd4.woff2",
+    "index.html": "/portfolio/index.html",
+    "main.542a0c9a.css.map": "/portfolio/static/css/main.542a0c9a.css.map",
+    "main.c167f427.js.map": "/portfolio/static/js/main.c167f427.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.542a0c9a.css",
+    "static/js/main.c167f427.js"
+  ]
+}
