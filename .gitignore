@@ -21,3 +21,6 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+*.html  # Ignore generated HTML resumes
+Badr_Ribzat_Resume_*.pdf  # Ignore local timestamped copies
