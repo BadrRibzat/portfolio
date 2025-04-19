@@ -270,3 +270,9 @@ Next Steps:
 2. Tailor for specific jobs by adjusting keywords
 3. Save multiple versions for different roles
 """)
+
+# Add to the end of the script:
+print("\nUpdating portfolio resume copy...")
+import shutil
+shutil.copy2(pdf_filename, "/home/badr/badr-portfolio/src/assets/my-documents/BadrRibzat.pdf")
+
