@@ -1,6 +1,6 @@
 // Create src/components/Resume.js for embedded viewing:
 import React from 'react';
-import resumePDF from '../assets/my-documents/BadrRibzat_20250419.pdf';
+import resumePDF from '../assets/my-documents/BadrRibzat.pdf';
 
 const Resume = () => (
   <section className="p-8">
