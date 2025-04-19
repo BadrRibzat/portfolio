@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.9f577a18.css",
-    "main.js": "/portfolio/static/js/main.de66720e.js",
+    "main.css": "/portfolio/static/css/main.3751de7f.css",
+    "main.js": "/portfolio/static/js/main.115bd9a4.js",
     "static/media/English-Intermediate.pdf": "/portfolio/static/media/English-Intermediate.fdd55bd30e7f33959a36.pdf",
     "static/media/Google.pdf": "/portfolio/static/media/Google.51ec26863adde80ce930.pdf",
     "static/media/carist.pdf": "/portfolio/static/media/carist.5b1f8be57ba5b0092753.pdf",
@@ -17,20 +17,19 @@
     "static/media/me.jpg": "/portfolio/static/media/me.cd2eb24b0634d790ab82.jpg",
     "static/media/fa-brands-400.woff2": "/portfolio/static/media/fa-brands-400.c210719e60948b211a12.woff2",
     "static/media/JavaScript-2.pdf": "/portfolio/static/media/JavaScript-2.8f84737f38da0cf0222f.pdf",
-    "static/media/BadrRibzat.pdf": "/portfolio/static/media/BadrRibzat.5d827b5390dacc2971e4.pdf",
     "static/media/certificate_Social-Media-Marketing.pdf": "/portfolio/static/media/certificate_Social-Media-Marketing.4c46b6511b6dec070ff6.pdf",
     "static/media/JavaScript.pdf": "/portfolio/static/media/JavaScript.681603db24058963a7cf.pdf",
     "static/media/fa-regular-400.ttf": "/portfolio/static/media/fa-regular-400.914997e1bdfc990d0897.ttf",
-    "static/media/Badr_Ribzat_Resume.pdf": "/portfolio/static/media/Badr_Ribzat_Resume.fe76d7120809fde9dec1.pdf",
+    "static/media/BadrRibzat.pdf": "/portfolio/static/media/BadrRibzat.fc02bd67366a1ef4bcad.pdf",
     "static/media/fa-regular-400.woff2": "/portfolio/static/media/fa-regular-400.89999bdf5d835c012025.woff2",
     "static/media/fa-v4compatibility.ttf": "/portfolio/static/media/fa-v4compatibility.da94ef451f4969af06e6.ttf",
     "static/media/fa-v4compatibility.woff2": "/portfolio/static/media/fa-v4compatibility.ea8f94e1d22e0d35ccd4.woff2",
     "index.html": "/portfolio/index.html",
-    "main.9f577a18.css.map": "/portfolio/static/css/main.9f577a18.css.map",
-    "main.de66720e.js.map": "/portfolio/static/js/main.de66720e.js.map"
+    "main.3751de7f.css.map": "/portfolio/static/css/main.3751de7f.css.map",
+    "main.115bd9a4.js.map": "/portfolio/static/js/main.115bd9a4.js.map"
   },
   "entrypoints": [
-    "static/css/main.9f577a18.css",
-    "static/js/main.de66720e.js"
+    "static/css/main.3751de7f.css",
+    "static/js/main.115bd9a4.js"
   ]
 }
