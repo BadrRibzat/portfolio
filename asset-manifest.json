@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.3751de7f.css",
-    "main.js": "/portfolio/static/js/main.115bd9a4.js",
+    "main.css": "/portfolio/static/css/main.16c43820.css",
+    "main.js": "/portfolio/static/js/main.027e6020.js",
     "static/media/English-Intermediate.pdf": "/portfolio/static/media/English-Intermediate.fdd55bd30e7f33959a36.pdf",
     "static/media/Google.pdf": "/portfolio/static/media/Google.51ec26863adde80ce930.pdf",
     "static/media/carist.pdf": "/portfolio/static/media/carist.5b1f8be57ba5b0092753.pdf",
@@ -20,16 +20,16 @@
     "static/media/certificate_Social-Media-Marketing.pdf": "/portfolio/static/media/certificate_Social-Media-Marketing.4c46b6511b6dec070ff6.pdf",
     "static/media/JavaScript.pdf": "/portfolio/static/media/JavaScript.681603db24058963a7cf.pdf",
     "static/media/fa-regular-400.ttf": "/portfolio/static/media/fa-regular-400.914997e1bdfc990d0897.ttf",
-    "static/media/BadrRibzat.pdf": "/portfolio/static/media/BadrRibzat.fc02bd67366a1ef4bcad.pdf",
+    "static/media/BadrRibzat.pdf": "/portfolio/static/media/BadrRibzat.eef75595415e6236cf92.pdf",
     "static/media/fa-regular-400.woff2": "/portfolio/static/media/fa-regular-400.89999bdf5d835c012025.woff2",
     "static/media/fa-v4compatibility.ttf": "/portfolio/static/media/fa-v4compatibility.da94ef451f4969af06e6.ttf",
     "static/media/fa-v4compatibility.woff2": "/portfolio/static/media/fa-v4compatibility.ea8f94e1d22e0d35ccd4.woff2",
     "index.html": "/portfolio/index.html",
-    "main.3751de7f.css.map": "/portfolio/static/css/main.3751de7f.css.map",
-    "main.115bd9a4.js.map": "/portfolio/static/js/main.115bd9a4.js.map"
+    "main.16c43820.css.map": "/portfolio/static/css/main.16c43820.css.map",
+    "main.027e6020.js.map": "/portfolio/static/js/main.027e6020.js.map"
   },
   "entrypoints": [
-    "static/css/main.3751de7f.css",
-    "static/js/main.115bd9a4.js"
+    "static/css/main.16c43820.css",
+    "static/js/main.027e6020.js"
   ]
 }
