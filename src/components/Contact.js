@@ -1,5 +1,5 @@
 import React from 'react';
-import resumePDF from '../assets/my-documents/BadrRibzat.pdf';
+import resumePDF from '../assets/my-documents/BadrRibzat_$(date +%Y%m%d).pdf';
 
 const Contact = () => {
   return (
@@ -74,7 +74,7 @@ const Contact = () => {
         
         <a 
           href={resumePDF} 
-          download="BadrRibzat.pdf"
+          download="BadrRibzat_$(date +%Y%m%d).pdf"
           className="inline-block bg-indigo-600 hover:bg-indigo-700 text-white text-lg font-medium py-3 px-8 rounded-lg transition-colors duration-300"
         >
           <i className="fas fa-download mr-2"></i>
