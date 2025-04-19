@@ -1,6 +1,11 @@
 #!/usr/bin/env python3
 import pdfkit
 from datetime import datetime
+# Add to resume_generator.py before the copy:
+import os
+resume_path = "/home/badr/badr-portfolio/src/assets/my-documents/BadrRibzat.pdf"
+if os.path.exists(resume_path):
+    os.remove(resume_path)
 
 # UPDATED RESUME DATA WITH ATS OPTIMIZATION
 resume_data = {
