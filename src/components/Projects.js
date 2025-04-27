@@ -14,13 +14,23 @@ const Projects = () => {
       icon: "fas fa-robot"
     },
     {
-      title: "IT Learning Platform API",
-      description: "A comprehensive backend API for an educational platform with JWT authentication, documentation, and health monitoring.",
-      technologies: ["Python", "FastAPI", "MongoDB", "Docker"],
+      title: "Recipes API",
+      description: "A comprehensive REST API for managing cooking recipes with search and filtering capabilities.",
+      technologies: ["Python", "FastAPI", "MongoDB"],
       links: [
         { type: "live", url: "https://badrribzat.github.io/project_api/" },
-        { type: "docs", url: "https://it-learn-backend.onrender.com/docs" },
+        { type: "docs", url: "https://badrribzat.github.io/project_api/docs" },
         { type: "code", url: "https://github.com/BadrRibzat/project_api" }
+      ],
+      icon: "fas fa-utensils"
+    },
+    {
+      title: "IT Learning Platform API",
+      description: "Backend API for educational platform with JWT authentication and course management.",
+      technologies: ["Python", "FastAPI", "MongoDB", "Docker"],
+      links: [
+        { type: "docs", url: "https://it-learn-backend.onrender.com/docs" },
+        { type: "code", url: "https://github.com/BadrRibzat/It_Learning" }
       ],
       icon: "fas fa-laptop-code"
     },
