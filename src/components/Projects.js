@@ -3,36 +3,66 @@ import React from 'react';
 const Projects = () => {
   const featuredProjects = [
     {
+      title: "Chatbot Assistant",
+      description: "AI-powered chatbot with natural language processing capabilities for educational purposes.",
+      technologies: ["Python", "NLTK", "Flask", "JavaScript", "React"],
+      links: [
+        { type: "frontend", url: "https://chatbot-assistant-frontend.vercel.app/chat" },
+        { type: "backend", url: "https://chatbot-backend-badr.fly.dev/" },
+        { type: "code", url: "https://github.com/BadrRibzat/Chatbot-Assistant" }
+      ],
+      icon: "fas fa-robot"
+    },
+    {
       title: "IT Learning Platform API",
       description: "A comprehensive backend API for an educational platform with JWT authentication, documentation, and health monitoring.",
       technologies: ["Python", "FastAPI", "MongoDB", "Docker"],
       links: [
-        { type: "live", url: "https://it-learn-backend.onrender.com" },
+        { type: "live", url: "https://badrribzat.github.io/project_api/" },
         { type: "docs", url: "https://it-learn-backend.onrender.com/docs" },
         { type: "code", url: "https://github.com/BadrRibzat/project_api" }
       ],
       icon: "fas fa-laptop-code"
     },
     {
-      title: "Chatbot Assistant",
-      description: "AI-powered chatbot with natural language processing capabilities for educational purposes.",
-      technologies: ["Python", "NLTK", "Flask", "JavaScript"],
+      title: "Ayman Project",
+      description: "A web application showcasing various frontend development skills and responsive design.",
+      technologies: ["HTML", "CSS", "JavaScript"],
       links: [
-        { type: "code", url: "https://github.com/BadrRibzat/Chatbot-Assistant" }
+        { type: "live", url: "https://BadrRibzat.github.io/ayman/" },
+        { type: "code", url: "https://github.com/BadrRibzat/ayman" }
       ],
-      icon: "fas fa-robot"
+      icon: "fas fa-globe"
     }
   ];
 
   const learningProjects = [
     {
-      title: "System Engineering & DevOps",
-      description: "Collection of scripts and projects covering Linux administration, shell scripting, and DevOps practices.",
-      technologies: ["Bash", "Python", "Linux", "CI/CD"],
+      title: "IT Learning Platform",
+      description: "Educational platform for IT skills development.",
+      technologies: ["Python", "JavaScript", "HTML/CSS"],
       links: [
-        { type: "code", url: "https://github.com/BadrRibzat/alx-system_engineering-devops" }
+        { type: "code", url: "https://github.com/BadrRibzat/It_Learning.git" }
       ],
-      icon: "fas fa-server"
+      icon: "fas fa-graduation-cap"
+    },
+    {
+      title: "English Learning App",
+      description: "Application designed for English language learning.",
+      technologies: ["JavaScript", "HTML/CSS"],
+      links: [
+        { type: "code", url: "https://github.com/BadrRibzat/English-Learning-App.git" }
+      ],
+      icon: "fas fa-language"
+    },
+    {
+      title: "English Learning Platform",
+      description: "Comprehensive platform for English language education.",
+      technologies: ["Python", "JavaScript"],
+      links: [
+        { type: "code", url: "https://github.com/BadrRibzat/english_learning_platform.git" }
+      ],
+      icon: "fas fa-book"
     },
     {
       title: "Tech Learning Hub",
@@ -42,6 +72,15 @@ const Projects = () => {
         { type: "code", url: "https://github.com/BadrRibzat/Tech-Learn" }
       ],
       icon: "fas fa-book-open"
+    },
+    {
+      title: "System Engineering & DevOps",
+      description: "Collection of scripts and projects covering Linux administration, shell scripting, and DevOps practices.",
+      technologies: ["Bash", "Python", "Linux", "CI/CD"],
+      links: [
+        { type: "code", url: "https://github.com/BadrRibzat/alx-system_engineering-devops" }
+      ],
+      icon: "fas fa-server"
     }
   ];
 
@@ -59,7 +98,7 @@ const Projects = () => {
             <i className="fas fa-star mr-2 text-yellow-500"></i>
             Featured Work
           </h3>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {featuredProjects.map((project, index) => (
               <div key={index} className="bg-white dark:bg-gray-700 rounded-xl shadow-lg overflow-hidden transition-all duration-300 hover:shadow-xl">
                 <div className="p-6">
@@ -77,27 +116,35 @@ const Projects = () => {
                     ))}
                   </div>
                   
-                  <div className="flex flex-wrap gap-4">
+                  <div className="flex flex-wrap gap-2">
                     {project.links.map((link, i) => (
                       <a 
                         key={i}
                         href={link.url} 
                         target="_blank" 
                         rel="noopener noreferrer"
-                        className={`inline-flex items-center px-4 py-2 rounded-md ${
+                        className={`inline-flex items-center px-3 py-1 rounded-md text-sm ${
                           link.type === 'live' 
                             ? 'bg-green-600 hover:bg-green-700 text-white'
                             : link.type === 'docs'
                             ? 'bg-blue-600 hover:bg-blue-700 text-white'
+                            : link.type === 'frontend'
+                            ? 'bg-purple-600 hover:bg-purple-700 text-white'
+                            : link.type === 'backend'
+                            ? 'bg-orange-600 hover:bg-orange-700 text-white'
                             : 'bg-gray-200 hover:bg-gray-300 text-gray-800 dark:bg-gray-600 dark:hover:bg-gray-500 dark:text-white'
                         }`}
                       >
-                        <i className={`mr-2 ${
+                        <i className={`mr-1 ${
                           link.type === 'live' ? 'fas fa-external-link-alt' :
-                          link.type === 'docs' ? 'fas fa-book' : 'fab fa-github'
+                          link.type === 'docs' ? 'fas fa-book' : 
+                          link.type === 'frontend' ? 'fas fa-desktop' :
+                          link.type === 'backend' ? 'fas fa-server' : 'fab fa-github'
                         }`}></i>
                         {link.type === 'live' ? 'Live Demo' : 
-                         link.type === 'docs' ? 'API Docs' : 'View Code'}
+                         link.type === 'docs' ? 'API Docs' : 
+                         link.type === 'frontend' ? 'Frontend' :
+                         link.type === 'backend' ? 'Backend' : 'Code'}
                       </a>
                     ))}
                   </div>
@@ -113,7 +160,7 @@ const Projects = () => {
             <i className="fas fa-graduation-cap mr-2 text-blue-500"></i>
             Learning & Development
           </h3>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {learningProjects.map((project, index) => (
               <div key={index} className="bg-white dark:bg-gray-700 rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow duration-300">
                 <div className="flex items-center mb-3">
