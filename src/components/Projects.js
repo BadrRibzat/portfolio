@@ -14,8 +14,8 @@ const Projects = () => {
       icon: "fas fa-robot"
     },
     {
-      title: "Recipes API",
-      description: "A comprehensive REST API for managing cooking recipes with search and filtering capabilities.",
+      title: "Recipes API Project",
+      description: "A complete REST API for recipe management with search, filtering, and CRUD operations.",
       technologies: ["Python", "FastAPI", "MongoDB"],
       links: [
         { type: "live", url: "https://badrribzat.github.io/project_api/" },
@@ -26,7 +26,7 @@ const Projects = () => {
     },
     {
       title: "IT Learning Platform API",
-      description: "Backend API for educational platform with JWT authentication and course management.",
+      description: "Educational platform backend with course management and user authentication.",
       technologies: ["Python", "FastAPI", "MongoDB", "Docker"],
       links: [
         { type: "docs", url: "https://it-learn-backend.onrender.com/docs" },
