@@ -1,0 +1,52 @@
+/* src/app/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: 'rlig' 1, 'calt' 1;
+  }
+  img {
+    @apply max-w-full h-auto;
+  }
+  svg {
+    @apply w-6 h-6;
+  }
+  .lucide {
+    @apply w-5 h-5;
+  }
+  .social-icon {
+    @apply w-5 h-5;
+  }
+  ::-webkit-scrollbar {
+    @apply w-2 h-2;
+  }
+  ::-webkit-scrollbar-track {
+    @apply bg-background;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply bg-primary rounded-full hover:bg-primary/80;
+  }
+  ::selection {
+    @apply bg-primary/20 text-foreground;
+  }
+
+  /* Dark mode styles */
+  .dark body {
+    @apply bg-gray-900 text-gray-100;
+  }
+  .dark ::-webkit-scrollbar-track {
+    @apply bg-gray-800;
+  }
+  .dark ::-webkit-scrollbar-thumb {
+    @apply bg-indigo-500 hover:bg-indigo-400;
+  }
+  .dark ::selection {
+    @apply bg-indigo-500/20 text-gray-100;
+  }
+}
