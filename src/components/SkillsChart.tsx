@@ -51,7 +51,7 @@ export default function SkillsChart() {
       },
       tooltip: {
         callbacks: {
-          label: (context: any) => {
+          label: (context: import('chart.js').TooltipItem<'radar'>) => {
             return `${context.dataset.label}: ${context.raw}%`;
           },
         },

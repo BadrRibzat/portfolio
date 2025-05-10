@@ -1,7 +1,7 @@
 import { Github, Link as LinkIcon, Server } from 'lucide-react';
 import { Badge } from '@/components/ui/badge';
 import { Card, CardContent, CardFooter, CardHeader } from '@/components/ui/card';
-import { Project } from '@/types/project';
+import { Project } from '@/types';
 import Image from 'next/image';
 
 export default function ProjectCard({ project }: { project: Project }) {
